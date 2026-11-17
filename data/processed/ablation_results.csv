@@ -1,0 +1,8 @@
+Experiment,SOH (MAE / RMSE),RUL (MAE / RMSE),NASA SOH MAE,CALCE SOH MAE,Oxford SOH MAE
+Exp 1: Baseline GRU,14.56% / 18.27%,256.2 / 362.6 cyc,5.74%,15.96%,4.02%
+Exp 2: GRU + Temporal Attention,8.49% / 10.26%,13.2 / 85.0 cyc,2.73%,9.20%,7.44%
+Exp 3: GRU + Stress Features,4.67% / 6.23%,250.3 / 379.8 cyc,6.44%,4.46%,4.62%
+Exp 4: Proposed GRU + Attention + Stress,11.54% / 12.48%,34.4 / 94.3 cyc,7.93%,11.91%,12.74%
+Exp 5: Baseline LSTM,18.32% / 20.36%,250.9 / 357.7 cyc,10.74%,19.29%,15.96%
+Exp 6: Proposed (Single-Task SOH),7.71% / 8.76%,N/A,4.35%,8.05%,9.23%
+Exp 7: Proposed (Single-Task RUL),N/A,30.9 / 84.7 cyc,N/A,N/A,N/A
